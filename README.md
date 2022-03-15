@@ -1,1 +1,1 @@
-# URI-Online-Judge-Beecrowd-
+# URI-Online-Judge-Beecrowd
