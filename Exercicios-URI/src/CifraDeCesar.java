@@ -41,7 +41,7 @@ public class CifraDeCesar {
 		for(int i = 0; i < N; i++) {
 			
 			do {
-				System.out.println("Informe a sentença a ser codificada: ");
+				System.out.println("\nInforme a sentença a ser codificada: ");
 				sentenca = leitor.nextLine();
 				sentenca = sentenca.toUpperCase();
 				
