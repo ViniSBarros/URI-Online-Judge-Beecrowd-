@@ -16,16 +16,16 @@ um algoritmo que ajude João a descobrir a quantidade de leds necessário para m
 Entrada
 A entrada contém um inteiro N, (1 ≤ N ≤ 1000) correspondente ao número de casos de teste, seguido de N linhas, cada linha contendo um número (1 ≤ V ≤ 10100) correspondente ao valor que João quer montar com os leds.
 
-Saída
+Saida
 Para cada caso de teste, imprima uma linha contendo o número de leds que João precisa para montar o valor desejado, seguido da palavra "leds".
 
-				-----------------------------------------------------
-				|  Exemplo de Entrada	|	  Exemplo de Saída  |
+				-------------------------------------------------
+				|  Exemplo de Entrada	|	  Exemplo de Saída |
 				|  3                    |                  	    |
 				|  115380               |   27 leds       	    |
 				|  2819311              |   29 leds       	    |
 				|  23456                |   25 leds        	    |
-				-----------------------------------------------------
+				-------------------------------------------------
 */
 import java.util.Scanner;
 
