@@ -33,7 +33,7 @@ public class CifraDeCesar {
 		char codigo;
 		int chave = 0;
 		
-		System.out.println("Quantos teste você deseja realizar? ");
+		System.out.println("Quantos testes você deseja realizar? ");
 		int N = leitor.nextInt();
 		
 		leitor.nextLine();
