@@ -5,8 +5,8 @@ beecrowd | 1168
 LED
 Autor Desconhecido
 
-João quer montar um painel de leds contendo diversos números. Ele não possui muitos leds, e não tem certeza se conseguirá montar o número desejado. Considerando a configuração dos leds dos números abaixo, faça 
-um algoritmo que ajude João a descobrir a quantidade de leds necessário para montar o valor.
+João quer montar um painel de leds contendo diversos números. Ele não possui muitos leds, e não tem certeza se conseguirá¡ montar o número desejado. 
+Considerando a configuração dos leds dos números abaixo, faça um algoritmo que ajude JoÃ£o a descobrir a quantidade de leds necessÃ¡rio para montar o valor.
 
 		 _     _  _       _   _  _   _   _ 
 		| | |  _| _| |_| |_  |_   | |_| |_|
@@ -14,13 +14,14 @@ um algoritmo que ajude João a descobrir a quantidade de leds necessário para m
 		
 
 Entrada
-A entrada contém um inteiro N, (1 ≤ N ≤ 1000) correspondente ao número de casos de teste, seguido de N linhas, cada linha contendo um número (1 ≤ V ≤ 10100) correspondente ao valor que João quer montar com os leds.
+A entrada contém um inteiro N, (1 < N > 1000) correspondente ao número de casos de teste, seguido de N linhas, cada linha contendo um nÃºmero (1 < V > 10100)
+correspondente ao valor que João quer montar com os leds.
 
 Saida
 Para cada caso de teste, imprima uma linha contendo o número de leds que João precisa para montar o valor desejado, seguido da palavra "leds".
 
 				-------------------------------------------------
-				|  Exemplo de Entrada	|	  Exemplo de Sa�da  |
+				|  Exemplo de Entrada	|	  Exemplo de Saída  |
 				|  3                    |                  	    |
 				|  115380               |   27 leds       	    |
 				|  2819311              |   29 leds       	    |
