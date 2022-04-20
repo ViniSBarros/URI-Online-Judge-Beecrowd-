@@ -2,21 +2,24 @@
  * https://www.beecrowd.com.br/judge/pt/problems/view/1253
  * 
  * beecrowd | 1253
- * Cifra de César
+ * Cifra de CÃ©sar
  * Autor: TopCoder - USA
  * 
- * Júlio César usava um sistema de criptografia, agora conhecido como Cifra de César, que trocava cada letra pelo equivalente em duas posições adiante no alfabeto (por exemplo, 'A' vira 'C', 'R' vira 'T', etc.). 
- * Ao final do alfabeto nós voltamos para o começo, isto é 'Y' vira 'A'. Nós podemos, é claro, tentar trocar as letras com quaisquer número de posições.
+ * JÃºlio CÃ©sar usava um sistema de criptografia, agora conhecido como Cifra de CÃ©sar, que trocava cada letra pelo equivalente em duas posiÃ§Ãµes adiante no alfabeto 
+ * (por exemplo, 'A' vira 'C', 'R' vira 'T', etc.). 
+ * Ao final do alfabeto nÃ³s voltamos para o comeÃ§o, isto Ã© 'Y' vira 'A'. NÃ³s podemos, Ã© claro, tentar trocar as letras com quaisquer nÃºmero de posiÃ§Ãµes.
  * 
  * Entrada
  * 
- * A entrada contém vários casos de teste. A primeira linha de entrada contém um inteiro N que indica a quantidade de casos de teste. Cada caso de teste é composto por duas linhas. A primeira linha contém uma string 
- * com até 50 caracteres maiúsculos ('A'-'Z'), que é a sentença após ela ter sido codificada através desta Cifra de César modificada. A segunda linha contém um número que varia de 0 a 25 e que representa quantas 
- * posições cada letra foi deslocada para a direita.
+ * A entrada contÃ©m vÃ¡rios casos de teste. A primeira linha de entrada contÃ©m um inteiro N que indica a quantidade de casos de teste. Cada caso de teste Ã© composto por duas linhas. A primeira linha contÃ©m uma string 
+ * com atÃ© 50 caracteres maiÃºsculos ('A'-'Z'), que Ã© a sentenÃ§a apÃ³s ela ter sido codificada atravÃ©s desta Cifra de CÃ©sar modificada. A segunda linha contÃ©m um nÃºmero 
+ * que varia de 0 a 25 e que representa quantas 
+ * posiÃ§Ãµes cada letra foi deslocada para a direita.
  * 
- * Saída
+ * SaÃ­da
  * 
- * Para cada caso de teste de entrada, imprima uma linha de saída com o texto decodificado (transformado novamente para o texto original) conforme as regras acima e o exemplo abaixo.
+ * Para cada caso de teste de entrada, imprima uma linha de saÃ­da com o texto decodificado (transformado novamente para o texto original) conforme as regras acima e 
+ * o exemplo abaixo.
  * 
  * 
  */
@@ -33,7 +36,7 @@ public class CifraDeCesar {
 		char codigo;
 		int chave = 0;
 		
-		System.out.println("Quantos testes você deseja realizar? ");
+		System.out.println("Quantos testes vocÃª deseja realizar? ");
 		int N = leitor.nextInt();
 		
 		leitor.nextLine();
@@ -41,14 +44,14 @@ public class CifraDeCesar {
 		for(int i = 0; i < N; i++) {
 			
 			do {
-				System.out.println("\nInforme a sentença a ser codificada: ");
+				System.out.println("\nInforme a sentenÃ§a a ser codificada: ");
 				sentenca = leitor.nextLine();
 				sentenca = sentenca.toUpperCase();
 				
 				} while(sentenca.length() > 50);
 				
 			do {
-				System.out.println("Informe quantas posições as letras serão deslocadas: ");
+				System.out.println("Informe quantas posiÃ§Ãµes as letras serÃ£o deslocadas: ");
 				chave = leitor.nextInt();
 				
 				leitor.nextLine();
