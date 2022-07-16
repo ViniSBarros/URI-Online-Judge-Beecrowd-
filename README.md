@@ -1,5 +1,6 @@
 # URI-Online-Judge (Beecrowd)
-Este é o meu repositório de soluções do URI.
+Este é o meu repositório de soluções do URI.<br>
+Aqui você irá encontrar as soluções dos exercícios que eu resolvi do site Beecrowd.
 <hr>
-<img src="https://pulpo-site-3tduojw3tlwg6yqrnax.netdna-ssl.com/wp-content/uploads/2017/01/logo-gmail-urionlinejudge.png" alt="logo-URI">
+<img src="https://www.jornalbomdia.com.br/tb_noticias/4009/urii.png" alt="logo-URI">
 
